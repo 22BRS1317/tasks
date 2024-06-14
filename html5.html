@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <input type="text" class="form-input" placeholder="First Name">
+        <input type="text" class="form-input" placeholder="Last Name">
+        <input type="email" class="form-input" placeholder="Email">
+        <input type="password" class="form-input" placeholder="Password">
+        <input type="password" class="form-input" placeholder="Re-enter Password">
+        <label for="gender">Gender:</label>
+        <select id="gender" class="form-input">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <input type="number" class="form-input" placeholder="Age">
+        <input type="tel" class="form-input" placeholder="Phone Number">
+        <textarea class="form-input" placeholder="Address"></textarea>
+        <label>Languages known:</label>
+        <input type="checkbox" id="english" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="kannada" value="kannada">
+        <label for="kannada">Kannada</label>
+        <input type="checkbox" id="hindi" value="hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="telugu" value="telugu">
+        <label for="telugu">Telugu</label>
+        <input type="checkbox" id="others" value="others">
+        <label for="others">Others</label><br>
+        <input type="checkbox" id="declaration">
+        <label for="declaration">I hereby declare all the given details are true</label>
+        <button class="form-button">Register</button>
+    </div>
+</body>
+</html>

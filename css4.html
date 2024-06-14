@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>side_nav</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.sidenav {
+  width: 150px;
+  background-color: #f1bbbb;
+  padding: 10px;
+  position: relative;
+}
+.sidenav1 {
+  width: 150px;
+  background-color: #ef80df;
+  padding: 10px;
+  position: relative;
+}
+.sidenav2 {
+  width: 150px;
+  background-color: #d3ec7a;
+  padding: 10px;
+  position: relative;
+}
+.sidenav3 {
+  width: 150px;
+  background-color: #bfe070;
+  padding: 10px;
+  position: relative;
+}
+.sidenav a,.sidenav1 a,.sidenav2 a,.sidenav3 a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+}
+
+.sidenav a:hover,.sidenav1 a:hover,.sidenav2 a:hover,.sidenav3 a:hover {
+  background-color: #7eef8b;
+}
+
+main {
+  margin-left: 15%;
+  flex-grow: 1;
+  padding: 20px;
+  margin-top:-25%;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidenav1">
+          <ul>
+            <li><a href="#">1</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div class="container">
+        <nav class="sidenav2">
+          <ul>
+            <li><a href="#">2</a></li>
+          </ul>
+        </nav>
+        </div>
+        <nav class="sidenav3">
+          <ul>
+            <li><a href="#">3</a></li>
+          </ul>
+        </nav>
+        <nav class="sidenav">
+          <ul>
+            <li><a href="#">4</a></li>
+          </ul>
+        </nav>
+        <main>
+            <h2>Hoverable Sidenav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them.</p>        </main>
+      </div>
+</body>
+</html>
